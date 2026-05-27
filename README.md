@@ -52,6 +52,14 @@ This project enforces strict compilation boundaries, optimized client bundles, a
 ├── esbuild.config.js        # High-velocity compiler configurations
 ├── Dockerfile               # Google Cloud Container deployment rules
 └── README.md                # System documentation architecture
+---
+
+
+
+
+
+
+
 
 🚀 Local Deployment Lifecycle
 Clone this reference architecture:
