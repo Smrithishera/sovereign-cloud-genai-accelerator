@@ -61,23 +61,3 @@ This project enforces strict compilation boundaries, optimized client bundles, a
 
 
 
-🚀 Local Deployment Lifecycle
-Clone this reference architecture:
-
-Bash
-   git clone [https://github.com/Smrithishera/genai-forward-deployed-eng-workspace.git](https://github.com/Smrithishera/genai-forward-deployed-eng-workspace.git)
-   cd genai-forward-deployed-eng-workspace
-Install packages:
-
-Bash
-   npm install
-Boot the local development context:
-
-Bash
-   npm run dev
-Build the production-grade application artifact:
-
-Bash
-   npm run build
-
----
