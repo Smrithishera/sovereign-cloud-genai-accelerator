@@ -1,0 +1,8 @@
+{
+  "name": "Sovereign Cloud GenAI Accelerator Portfolio",
+  "description": "An interactive sovereign GenAI portfolio detailing Forward Deployed Engineer (GenAI, DACH) credentials. Features a Sovereign Ingestion Sandbox, multi-agent telemetry, live evaluation, MCP diagnostics, and production-grade blueprints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
