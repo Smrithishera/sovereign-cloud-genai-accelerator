@@ -30,35 +30,6 @@ The control plane implements live monitoring of LLM-native infrastructure constr
 
 ---
 
-## 🏗️ Structural System Topology
-
-[ Inbound Unstructured Payload ]
-                        │
-                        ▼
-           ┌──────────────────────────┐
-           │  Cloud Run Edge Gateway  │
-           └────────────┬─────────────┘
-                        │
-                        ▼
- ┌──────────────────────────────────────────────┐
- │  LangGraph Cyclic PII & Edge Scrubber Node   │
- └──────────────────────┬───────────────────────┘
-                        │
-           ┌────────────┴────────────┐
-           ▼ (Secure Tool Call)      ▼ (Model Grounding)
- ┌───────────────────┐     ┌───────────────────┐
- │  MCP SAP Bridge   │     │ Vertex AI Engine  │
- │ (sap_read_table)  │     │  (europe-west3)   │
- └───────────────────┘     └─────────┬─────────┘
-                                     │
-                                     ▼
-                           ┌───────────────────┐
-                           │  AlloyDB Audit    │
-                           │  (Zero-Trust Logs)│
-                           └───────────────────┘
-
----
-
 ## 🔒 Operational Excellence & Tech Stack
 
 This project enforces strict compilation boundaries, optimized client bundles, and production-grade software craftsmanship:
